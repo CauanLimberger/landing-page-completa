@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    
+
+}
+
+
+html {
+    width: 100vw;
+    height: 100vh;
+}
+
+.content-heard {
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+li {
+    list-style: nome;
+    color: white;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(69, 113, 158, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    max-width: 1200px;
+
+    padding: 15px;
+}
+
+
+
+.content-link:hover {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(69, 113, 158, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    transition: 0.3s all;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+.invisivel {
+    text-decoration: none;
+    color: inherit;
+    cursor: text;
+}
+
+.content-conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+
+}
+
+.content-footer {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 2%;
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 45px;
+    color: white;
+    font-weight: 200;
+    margin: 5%;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    color: white;
+
+}
+
+h3 {
+    font-size: 40px;
+    line-height: 10px;
+    font-family: popinsmedium;
+    color: white;
+    
+
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#Enviar {
+    height: 50px;
+    width: 50%;
+    font-weight: bold;
+}
+
+#Enviar:hover {
+    cursor: pointer;
+    background-color: rgb(132, 14, 201);
+    transition: 0.3s;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#img-principal {
+    width: 600px;
+    position: absolute;
+    top: 180px;
+    right: 20px;
+
+}
